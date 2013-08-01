@@ -1,5 +1,7 @@
 <?php
 $languageStrings = array(
+// 'Start Date & Time'=>'Дата и Время Начала',
+'Start Date &amp; Time'=>'Дата и Время Начала',
 'APPTITLE'=>'vtiger CRM', // TODO: Review
 'POWEREDBY'=>'Powered by vtiger CRM', // TODO: Review
 'LBL_READ_LICENSE'=>'Прочитать Лицензию', // KEY 5.x: LNK_READ_LICENSE
