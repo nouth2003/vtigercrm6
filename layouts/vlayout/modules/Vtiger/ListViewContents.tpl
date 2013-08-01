@@ -24,7 +24,10 @@
 <input type="hidden" id="alphabetValue" value="{$ALPHABET_VALUE}" />
 <input type="hidden" id="totalCount" value="{$LISTVIEW_COUNT}" />
 
-{assign var=ALPHABETS value=','|explode:'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z'}
+
+{assign var=ABC value=vtranslate('LBL_ABC', 'Vtiger')}
+{assign var=ALPHABETS value=','|explode:$ABC}
+
 <div class="alphabetSorting noprint">
 	<table width="100%" class="table-bordered" style="border: 1px solid #ddd;table-layout: fixed">
 		<tbody>

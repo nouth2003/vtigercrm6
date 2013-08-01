@@ -5,6 +5,7 @@ $languageStrings = array(
 'DASHBOARDHEADER_TITLE'=>'Рабочая Доска',
 'Home'=>'Рабочая Доска',
 'LBL_SIDE_BAR'=>'Панель',
+'LBL_ABC'=>'А,Б,В,Г,Д,Е,Ё,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Э,Ю,Я',
 'APPTITLE'=>'vtiger CRM', // TODO: Review
 'POWEREDBY'=>'Powered by vtiger CRM', // TODO: Review
 'LBL_READ_LICENSE'=>'Прочитать Лицензию', // KEY 5.x: LNK_READ_LICENSE
