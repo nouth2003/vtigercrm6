@@ -18,7 +18,7 @@
 		{assign var="FIRSTHEADERLINKCHILDRENS" value=$FIRSTHEADERLINK->get('childlinks')}
 		{assign var="FEEDBACKLINKMODEL" value=$FIRSTHEADERLINKCHILDRENS.2}
 		<div id="userfeedback" class="feedback noprint">
-			<a href="javascript:;" onclick="{$FEEDBACKLINKMODEL->get('linkurl')}" class="handle">{vtranslate("LBL_FEEDBACK", "Vtiger")}</a>
+			<a href="#" class="handle">{vtranslate("LBL_SIDE_BAR", "Vtiger")}</a>
 		</div>
 		{/if}
 
@@ -31,6 +31,8 @@
 				<a href="#" onclick="window.open('../copyright.html','copyright', 'height=115,width=575').moveTo(210,620)">{vtranslate('LBL_READ_LICENSE')}</a>
 				&nbsp;|&nbsp;
 				<a href="//www.vtiger.com/products/crm/privacy_policy.html" target="_blank">{vtranslate('LBL_PRIVACY_POLICY')}</a>
+				&nbsp;|&nbsp;
+				<a href="javascript:;" onclick="{$FEEDBACKLINKMODEL->get('linkurl')}" class="handle">{vtranslate("LBL_FEEDBACK", "Vtiger")}</a>
 			</p>
 		</footer>
 		{* javascript files *}

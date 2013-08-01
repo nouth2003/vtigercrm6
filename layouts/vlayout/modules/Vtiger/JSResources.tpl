@@ -53,3 +53,7 @@
 
 	<!-- Added in the end since it should be after less file loaded -->
 	<script type="text/javascript" src="libraries/bootstrap/js/less.min.js"></script>
+
+	<!-- Added to show hide layouts/vlayout/modules/Vtiger/SideBar.tpl as Panel -->
+	<script type="text/javascript" src="resources/sidebar.js"></script>
+	

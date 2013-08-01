@@ -12,7 +12,7 @@
 
 <div style='padding:10px;padding-left:20px;'>
 	{if $DASHBOARDHEADER_TITLE}
-		<h2 class="pull-left">{$DASHBOARDHEADER_TITLE}</h2>
+		<h2 class="pull-left">{vtranslate('DASHBOARDHEADER_TITLE')}</h2>
 	{/if}
 	<span class="btn-toolbar pull-right" style="margin: 0;">
 		<span class="btn-group">
