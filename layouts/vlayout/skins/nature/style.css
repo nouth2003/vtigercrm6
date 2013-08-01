@@ -256,9 +256,9 @@ hr {
 }
 .quickWidgetContainer li a {
   color: #174747;
-  white-space: nowrap;
-  padding-left: 16%;
-  width: 125%;
+  white-space: pre-wrap;
+  padding-left: 12%;
+  width: 95%;
 }
 .quickWidgetContainer li a:hover {
   background-color: #e1ede4;
