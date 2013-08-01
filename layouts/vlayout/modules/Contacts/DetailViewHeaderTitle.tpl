@@ -25,6 +25,7 @@
 				<span class="salutation">{$RECORD->getDisplayValue('salutationtype')}</span>&nbsp;
 				{foreach item=NAME_FIELD from=$MODULE_MODEL->getNameFields()}
 					{assign var=FIELD_MODEL value=$MODULE_MODEL->getField($NAME_FIELD)}
+					{$NAME_FIELD|@debug_print_var}
 						{if $FIELD_MODEL->getPermissions()}
 							<span class="{$NAME_FIELD}">{$RECORD->get($NAME_FIELD)}</span>&nbsp;
 						{/if}
@@ -40,3 +41,4 @@
 		</span>
 	</span>
 {/strip}
+{debug}

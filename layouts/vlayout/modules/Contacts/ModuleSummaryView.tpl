@@ -14,3 +14,4 @@
 		{include file='SummaryViewContents.tpl'|@vtemplate_path}
 	</div>
 {/strip}
+{debug}
