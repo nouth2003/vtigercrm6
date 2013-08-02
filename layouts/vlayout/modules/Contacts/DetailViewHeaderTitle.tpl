@@ -40,4 +40,3 @@
 		</span>
 	</span>
 {/strip}
-{debug}

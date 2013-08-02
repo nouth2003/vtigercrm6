@@ -15,9 +15,10 @@
 		<div class="span10">
 			<ul class="nav nav-list">
 				{foreach item=recordsModel from=$RECORDS}
-				<li>
+				<li style="white-space: pre-wrap; border-bottom: 1px groove gray;">
 					<a data-id={$recordsModel->getId()} href="{$recordsModel->getDetailViewUrl()}">{mb_substr(decode_html($recordsModel->getName()), 0, 128, 'UTF-8')}</a>
 				</li>
+				
 				{foreachelse}
 					<li style="text-align:center">{vtranslate('LBL_NO_RECORDS', $MODULE)}
 					</li>

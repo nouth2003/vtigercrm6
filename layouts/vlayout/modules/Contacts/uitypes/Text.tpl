@@ -30,4 +30,3 @@
 		{/if}
 {/if}
 {/strip}
-{debug}
