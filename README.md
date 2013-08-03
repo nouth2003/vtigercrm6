@@ -1,6 +1,8 @@
 Patch for vtigercrm 6.
 ----------------------
 
+I can`t use this repo for new install. Let me know if you have problem to understand "Commit" uses!
+
 Todo:
 
 1. Move Alphabet to langguages store
