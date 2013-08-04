@@ -1,6 +1,7 @@
 <?php
 $languageStrings = array(
 // 'Start Date & Time'=>'Дата и Время Начала',
+'End Date'=>'Дата Завершения', 
 'Start Date &amp; Time'=>'Дата и Время Начала',
 'DASHBOARDHEADER_TITLE'=>'Рабочая Доска',
 'Home'=>'Рабочая Доска',
@@ -433,8 +434,8 @@ $languageStrings = array(
 'Discount Amount'=>'Discount Amount', // TODO: Review
 'Item Discount Amount'=>'Item Discount Amount', // TODO: Review
 'Item Discount Percent'=>'Item Discount Percent', // TODO: Review
-'Due Date'=>'Выполнить до', 
-'Due Date & Time'=>'Due Date & Time', // TODO: Review
+'Due Date'=>'Дата Завершения', 
+
 'Email'=>'E-mail', 
 'Secondary Email'=>'Дополнительный Email', // TODO: Review
 'Other Email'=>'Другой Email', // TODO: Review

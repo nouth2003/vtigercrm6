@@ -10,7 +10,6 @@
  ********************************************************************************/
 -->*}
 
-
 {* <script> resources below *}
 	<script type="text/javascript" src="libraries/html5shim/html5.js"></script>
 
@@ -43,7 +42,11 @@
 	<script type="text/javascript" src="libraries/jquery/posabsolute-jQuery-Validation-Engine/js/jquery.validationEngine.js" ></script>
 	<script type="text/javascript" src="libraries/jquery/posabsolute-jQuery-Validation-Engine/js/jquery.validationEngine-en.js" ></script>
 	<script type="text/javascript" src="libraries/guidersjs/guiders-1.2.6.js"></script>
+	
+	<!-- Added datepicker localization for old jquery-datepicker  -->
 	<script type="text/javascript" src="libraries/jquery/datepicker/js/datepicker.js"></script>
+	<script type="text/javascript" src="languages/{php}echo($_SESSION['authenticated_user_language']);{/php}/datepicker.locale.js"></script>
+	
 	<script type="text/javascript" src="libraries/jquery/dangrossman-bootstrap-daterangepicker/date.js"></script>
 	<script type="text/javascript" src="libraries/jquery/jquery.ba-outside-events.min.js"></script>
 

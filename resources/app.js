@@ -6,7 +6,6 @@
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
  *************************************************************************************/
-
 var app = {
 
 	/**
@@ -488,6 +487,7 @@ var app = {
 		var params = {
 			format : vtigerDateFormat,
 			calendars: 1,
+			locale: vtigerDateLocale,
 			starts: 1,
 			eventName : 'focus',
 			onChange: function(formated){
@@ -517,7 +517,7 @@ var app = {
 			}
 			params.date = selectedDate;
 			params.current = selectedDate;
-			jQelement.DatePicker(params)
+			jQelement.DatePicker(params);
 		});
 
 	},
@@ -850,7 +850,7 @@ var app = {
 			return new window[moduleClassName]();
 		}
 	},
-	
+
 	/**
 	 * Function to decode the encoded htmlentities values
 	 */

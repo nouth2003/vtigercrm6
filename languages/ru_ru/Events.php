@@ -15,7 +15,8 @@ $languageStrings = array(
 'Send Notification'=>'Послать Уведомление', // TODO: Review
 'Location'=>'Место', // TODO: Review
 'Send Reminder'=>'Послать Напоминание', // TODO: Review
-'End Date & Time'=>'Дата и Время Завершения', 
+'End Date & Time'=>'Дата и Время Завершения',
+
 'Activity Type'=>'Тип Действия', 
 'Visibility'=>'Видимость', // TODO: Review
 'Private'=>'Личное', // KEY 5.x: PRIVATE_FILTER
