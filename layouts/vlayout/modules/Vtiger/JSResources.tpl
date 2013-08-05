@@ -16,6 +16,9 @@
 	<script type="text/javascript" src="libraries/jquery/jquery.blockUI.js"></script>
 	<script type="text/javascript" src="libraries/jquery/chosen/chosen.jquery.min.js"></script>
 	<script type="text/javascript" src="libraries/jquery/select2/select2.min.js"></script>
+	<script type="text/javascript" src="libraries/jquery/select2/select2_locale_{php}echo(substr($_SESSION['authenticated_user_language'],0,2));{/php}.js"></script>
+	
+	
 	<script type="text/javascript" src="libraries/jquery/jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
 	<script type="text/javascript" src="libraries/jquery/jquery.class.min.js"></script>
 	<script type="text/javascript" src="libraries/jquery/defunkt-jquery-pjax/jquery.pjax.js"></script>
