@@ -11,7 +11,7 @@
 -->*}
 {strip}
 <div>
-	<div>
+	<div style="float:left">
 		<input type="checkbox" name="recurringcheck" value="" {if $RECURRING_INFORMATION['recurringcheck'] eq 'Yes'}checked{/if}/>&nbsp;&nbsp;
 	</div>
 	<div class="{if $RECURRING_INFORMATION['recurringcheck'] eq 'Yes'}show{else}hide{/if}" id="repeatUI">

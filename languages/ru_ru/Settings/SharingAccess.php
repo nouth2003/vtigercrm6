@@ -1,6 +1,6 @@
 <?php
 $languageStrings = array(
-'Accounts'=>'Контрагенты', 
+'Accounts'=>'Организации', 
 'LBL_ADD_CUSTOM_RULE'=>'Добавить Пользовательское Правило', 
 'Read Only'=>'Read Only', // TODO: Review
 'Read Write'=>'Чтение/Запись', // KEY 5.x: Read/Write

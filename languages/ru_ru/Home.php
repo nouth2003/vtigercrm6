@@ -1,10 +1,10 @@
 <?php
 $languageStrings = array(
-'ALVT'=>'Последние Контрагенты', // KEY 5.x: Top Accounts
+'ALVT'=>'Последние Организации', // KEY 5.x: Top Accounts
 'PLVT'=>'Последние Сделки', // KEY 5.x: Top Potentials
 'QLTQ'=>'Последние Предложения', // KEY 5.x: Top Quotes
 'CVLVT'=>'Ключевые Показатели', // KEY 5.x: Key Metrics
-'HLT'=>'Top Support Tickets', // TODO: Review
+'HLT'=>'Ключевые Заявки', // TODO: Review
 'GRT'=>'Положение Моей Группы', // KEY 5.x: My Group Allocation
 'OLTSO'=>'Последние Заказы на Продажу', // KEY 5.x: Top Sales Orders
 'ILTI'=>'Последние Счета', // KEY 5.x: Top Invoices

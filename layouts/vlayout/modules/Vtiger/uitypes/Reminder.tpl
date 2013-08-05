@@ -27,6 +27,9 @@
 	</div>
 	<div style="float:left" class="{if $REMINDER_VALUES neq ''}show{else}hide{/if}">
 		<div style="float:left">
+			<div style="float:left;margin-top:5px">
+				&nbsp;{vtranslate('LBL_EVENTS_IF_REMINDER_SET_DATE_TIME', 'Events')}&nbsp;&nbsp;
+			</div>
 			<div style="float:left">
 				<select class="chzn-select input-mini" name="remdays">
 					{for $DAYS = 0 to 31}

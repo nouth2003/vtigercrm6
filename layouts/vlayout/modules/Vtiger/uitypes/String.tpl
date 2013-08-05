@@ -14,7 +14,7 @@
 {assign var="SPECIAL_VALIDATOR" value=$FIELD_MODEL->getValidator()}
 {assign var="FIELD_NAME" value=$FIELD_MODEL->get('name')}
 <input id="{$MODULE}_editView_fieldName_{$FIELD_NAME}" type="text" 
-	   class="input-large {if $FIELD_MODEL->isNameField()}nameField{/if}" 
+	   class="input-xlarge {if $FIELD_MODEL->isNameField()}nameField{/if}" 
 	   data-validation-engine="validate[{if $FIELD_MODEL->isMandatory() eq true}required,{/if}funcCall[Vtiger_Base_Validator_Js.invokeValidation]]" 
 	   name="{$FIELD_MODEL->getFieldName()}" 
 	   value="{$FIELD_MODEL->get('fieldvalue')}"
