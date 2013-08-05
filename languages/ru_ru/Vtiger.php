@@ -1,6 +1,5 @@
 <?php
 $languageStrings = array(
-// 'Start Date & Time'=>'Дата и Время Начала',
 'End Date'=>'Дата Завершения',
 'Start Date &amp; Time'=>'Дата и Время Начала',
 'DASHBOARDHEADER_TITLE'=>'Рабочая Доска',
@@ -651,4 +650,5 @@ $jsLanguageStrings = array(
 'JS_MORE_THAN_ONE_ITEM_SELECTED'=>'More than one Item selected', // TODO: Review
 'JS_ITEMS_DELETED_SUCCESSFULLY'=>'Items Deleted Successfully', // TODO: Review
 'JS_DUPLIACATE_ENTRIES_FOUND_FOR_THE_VALUE'=>'Duplicate entries found for the value', // TODO: Review
+'JS_NO_RESULTS_FOUND'=>'Нет результатов'
 );

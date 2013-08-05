@@ -1579,7 +1579,7 @@ Vtiger_Edit_Js("Inventory_Edit_Js",{
 					if(serverDataFormat.length <= 0) {
 						serverDataFormat = new Array({
 							//TODO : client translation
-							'label' : 'No Results Found',
+							'label' : app.vtranslate('JS_NO_RESULTS_FOUND'),
 							'type'  : 'no results'
 						});
 					}

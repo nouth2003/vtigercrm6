@@ -63,5 +63,3 @@
 
 	<!-- Added to show hide layouts/vlayout/modules/Vtiger/SideBar.tpl as Panel -->
 	<script type="text/javascript" src="resources/sidebar.js"></script>
-
-	
