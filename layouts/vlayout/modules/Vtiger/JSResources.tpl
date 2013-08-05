@@ -45,8 +45,8 @@
 	
 	<!-- Added datepicker localization for old jquery-datepicker  -->
 	<script type="text/javascript" src="libraries/jquery/datepicker/js/datepicker.js"></script>
-	<script type="text/javascript" src="languages/{php}echo($_SESSION['authenticated_user_language']);{/php}/datepicker.locale.js"></script>
-	
+	<script type="text/javascript" src="languages/{php}echo($_SESSION['authenticated_user_language']);{/php}/datepicker.locale.js"></script>	
+
 	<script type="text/javascript" src="libraries/jquery/dangrossman-bootstrap-daterangepicker/date.js"></script>
 	<script type="text/javascript" src="libraries/jquery/jquery.ba-outside-events.min.js"></script>
 
@@ -59,4 +59,5 @@
 
 	<!-- Added to show hide layouts/vlayout/modules/Vtiger/SideBar.tpl as Panel -->
 	<script type="text/javascript" src="resources/sidebar.js"></script>
+
 	
