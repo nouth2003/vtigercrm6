@@ -38,7 +38,7 @@
 						{foreach from=$FIELDS key=INDEX item=FIELD}
 						{if $INDEX lt 2}
 						<div class='font-x-small'>
-							<i>{$FIELD->getName()}</i>
+							<b><i>"{vtranslate($FIELD->getName())}"</i></b>
 							{if $FIELD->get('prevalue') neq ''}
 								{vtranslate('LBL_FROM')} <b>{Vtiger_Util_Helper::toVtiger6SafeHTML($FIELD->getDisplayValue(decode_html($FIELD->get('prevalue'))))}</b>
 							{else}
