@@ -2,6 +2,11 @@
 $languageStrings = array(
 'End Date'=>'Дата Завершения',
 'Start Date &amp; Time'=>'Дата и Время Начала',
+'End Date &amp; Time'=>'Дата и Время Завершения',
+'End Date & Time'=>'Дата и Время Завершения', // dashboard Events
+'Time Start'=>'Время Начала', // dashboard Events
+'End Time'=>'Время Завершения', // dashboard Events
+'Duration'=>'Продолжительность', // dashboard Events
 'DASHBOARDHEADER_TITLE'=>'Рабочая Доска',
 'Home'=>'Рабочая Доска',
 'LBL_SIDE_BAR'=>'Панель',

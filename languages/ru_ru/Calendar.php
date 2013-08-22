@@ -22,6 +22,7 @@ $languageStrings = array(
 'Send Notification'=>'Отправить Уведомление',
 'Location'=>'Расположение',
 'End Date & Time'=>'Дата и Время Завершения',
+'End Date &amp; Time'=>'Дата и Время Завершения',
 'LBL_ACTIVITY_TYPES'=>'Тип Активности', // TODO: Review
 'LBL_CONTACTS_SUPPORT_END_DATE'=>'Поддержка', // KEY 5.x: Support End Date
 'LBL_CONTACTS_BIRTH_DAY'=>'День рождения', // TODO: Review
