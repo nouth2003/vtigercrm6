@@ -436,7 +436,6 @@ $languageStrings = array(
 'Item Discount Amount'=>'Item Discount Amount', // TODO: Review
 'Item Discount Percent'=>'Item Discount Percent', // TODO: Review
 'Due Date'=>'Дата Завершения',
-
 'Email'=>'E-mail',
 'Secondary Email'=>'Дополнительный Email', // TODO: Review
 'Other Email'=>'Другой Email', // TODO: Review

@@ -15,6 +15,7 @@ $languageStrings = array(
 'LBL_SELECT_USERS'=>'Выбрать Пользователей', // TODO: Review
 'LBL_TASK_INFORMATION'=>'Информация о Задаче',
 'Subject'=>'Тема',
+'Start Date & Time'=>'Дата и Время Начала',
 'Start Date'=>'Дата и Время Начала',
 'Due Date & Time'=>'Дата и Время Завершения',
 'Activity Type'=>'Тип События',
